@@ -1,5 +1,6 @@
 @font-face {font-family: ExoMedium2; src:url(../fonts/exomedium2.otf);}
 @font-face {font-family: ExoMedium; src:url(../fonts/exomedium.ttf);}
+@font-face {font-family: ExoItalic; src:url(../fonts/exoregularitalic.otf);}
 
 body {
 	margin: 0;
@@ -87,7 +88,7 @@ a {
 	height: 630px;
 	opacity: 0.6;
 	position: relative;
-	top: 40%;
+	top: 10%;
 	left: 15%;
 }
 .features {
@@ -213,4 +214,110 @@ a {
 	letter-spacing: 1px;
 	color: #8a8a8a;
 	line-height: 25px;
+}
+.clients {
+	background: url(../img/clients_bg.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 540px;
+}
+.clients-list {
+	display: flex;
+	padding: 5% 10% 0 10%;
+}
+.clients-list h1 {
+	font-family: 'ExoMedium';
+	color: white;
+	font-size: 20px;
+	font-weight: lighter;
+	padding-top: 12px;
+	letter-spacing: 1px;
+}
+.clients-list h2 {
+	font-family: 'ExoMedium';
+	color: #ff6d6d;
+	font-size: 17px;
+	font-weight: lighter;
+}
+.clients-list p {
+	font-family: 'ExoItalic';
+	color: #c6c7c7;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+	line-height: 20px;
+}
+.clients-one, .clients-two, .clients-three {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clients-one, .clients-two {
+	margin-right: 3%;
+}
+.partners {
+	display: flex;
+	align-items: center;
+	padding: 5% 17% 0 17%;
+}
+.partners img {
+	margin-right: 10%;
+}
+.partners-hits {
+	width: 110px;
+	height: 60px;
+}
+.partners-rvlvr {
+	width: 110px;
+	height: 55px;
+}
+.partners-eatfindr {
+	width: 95px;
+	height: 80px;
+}
+.partners-igor {
+	width: 95px;
+	height: 60px;
+}
+.partners-sienna {
+	width: 105px;
+	height: 50px;
+}
+.browser {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.browser-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: ExoMedium;
+	padding: 5% 27% 0 27%;
+}
+.browser-text h5 {
+	text-transform: uppercase;
+	color: #ff6d6d;
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+.browser-text h1 {
+	font-size: 40px;
+	color: #282828;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+.browser-text p {
+	color: #8e8e8d;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 20px;
+	letter-spacing: 0.5px;
+}
+.browser img {
+	position: relative;
+	top: 7%;
 }
