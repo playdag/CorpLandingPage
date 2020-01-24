@@ -1,6 +1,7 @@
 @font-face {font-family: ExoMedium2; src:url(../fonts/exomedium2.otf);}
 @font-face {font-family: ExoMedium; src:url(../fonts/exomedium.ttf);}
 @font-face {font-family: ExoItalic; src:url(../fonts/exoregularitalic.otf);}
+@font-face {font-family: ExoRegular; src:url(../fonts/exoregular.ttf);}
 
 body {
 	margin: 0;
@@ -320,4 +321,100 @@ a {
 .browser img {
 	position: relative;
 	top: 7%;
+}
+.form {
+	width: 100%;
+	height: 60vh;
+	background-color: #323969;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.form-title {
+	font-family: 'ExoMedium';
+	text-align: center;
+}
+.form-title h5 {
+	text-transform: uppercase;
+	color: #ff6d6d;
+	font-size: 18px;
+	letter-spacing: 3px;
+	font-weight: lighter;
+}
+.form-title h1 {
+	font-size: 40px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+.form-input {
+	font-family: 'ExoRegular';
+	display: flex;
+	align-items: flex-end;
+	margin-top: 20px;
+}
+.form-input-name {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px 14px 10px 14px;
+	border: 1px solid #b8b9c3;
+	background: #464c77;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-right: 30px;
+}
+.form-input-email {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px 14px 10px 14px;
+	border: 1px solid #b8b9c3;
+	background: #464c77;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-right: 30px;
+}
+.form-input-password {
+	width: 200px;
+	font-size: 18px;
+	padding: 10px 14px 10px 14px;
+	border: 1px solid #b8b9c3;
+	background: #464c77;
+	border-radius: 3px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-right: 30px;
+}
+.input-accept-button {
+	width: 200px;
+	cursor: pointer;
+	border: solid #262b50;
+	border-width: 0 1px 1px 0;
+	background: #ff6d6d;
+	padding: 10px 14px 10px 14px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #ffffff;
+}
+.input-accept-text {
+	display: flex;
+	align-items: flex-end;
+	color: #ffffff;
+	padding-bottom: 9px;
+	font-size: 14px;
+}
+.input-accept-text img {
+	height: 30px;
+}
+.form-subscribe {
+	font-family: 'ExoRegular';
+	color: #b8b9c3;
+	margin-top: 40px;
+}
+.form-subscribe a {
+	color: #b8b9c3;
+	text-decoration: underline;
 }
